@@ -1,1 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Sulakshna Home Products</title>
 
+<style>
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #fffaf0;
+}
+
+header {
+    background-color: #b22222;
+    color: white;
+    padding: 15px;
+    text-align: center;
+}
+
+nav {
+    display: flex;
+    justify-content: center;
+    background: #ffcc00;
+    padding: 10px;
+}
+
+nav a {
+    margin: 0 15px;
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+}
+
+.hero {
+    text-align: center;
+    padding: 50px 20px;
+    background: linear-gradient(to right, #ffefba, #ffffff);
+}
+
+.hero h1 {
+    font-size: 40px;
+    color: #b22222;
+}
+
+.products {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 20px;
+    padding: 20px;
+}
+
+.card {
+    background: white;
+    border-radius: 10px;
+    padding: 15px;
+    text-align: center;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+}
+
+.card img {
+    width: 100%;
+    border-radius: 10px;
+}
+
+.about, .contact {
+    padding: 30px;
+    text-align: center;
+}
+
+footer {
+    background: #b22222;
+    color: white;
+    text-align: center;
+    padding: 10px;
+}
+</style>
+
+</head>
+
+<body>
+
+<header>
+    <h1>Sulakshna Home Products</h1>
+    <p>Pure, Homemade, Jain-Friendly Goodness</p>
+</header>
+
+<nav>
+    <a href="#">Home</a>
+    <a href="#products">Products</a>
+    <a href="#about">About</a>
+    <a href="#contact">Contact</a>
+</nav>
+
+<section class="hero">
+    <h1>Authentic Homemade Products</h1>
+    <p>No Onion • No Garlic • Jain Friendly</p>
+</section>
+
+<section id="products" class="products">
+
+    <div class="card">
+        <img src="https://via.placeholder.com/200" alt="Chilli Powder">
+        <h3>Chilli Powder</h3>
+        <p>Fresh, spicy, and pure.</p>
+    </div>
+
+    <div class="card">
+        <img src="https://via.placeholder.com/200" alt="Haldi Powder">
+        <h3>Haldi Powder</h3>
+        <p>Rich color and natural purity.</p>
+    </div>
+
+    <div class="card">
+        <img src="https://via.placeholder.com/200" alt="Masala Powder">
+        <h3>Masala Powder</h3>
+        <p>Traditional homemade blend.</p>
+    </div>
+
+    <div class="card">
+        <img src="https://via.placeholder.com/200" alt="Papad">
+        <h3>Papad</h3>
+        <p>Crispy and delicious.</p>
+    </div>
+
+    <div class="card">
+        <img src="https://via.placeholder.com/200" alt="Shevayya">
+        <h3>Shevayya</h3>
+        <p>Perfect for sweet dishes.</p>
+    </div>
+
+</section>
+
+<section id="about" class="about">
+    <h2>About Us</h2>
+    <p>
+        Sulakshna Home Products brings you homemade, hygienic and Jain-friendly food products.
+        We ensure no onion, no garlic, and no root vegetables are used.
+    </p>
+</section>
+
+<section id="contact" class="contact">
+    <h2>Contact Us</h2>
+    <p>📞 Phone: 9876543210</p>
+    <p>💬 WhatsApp: 9876543210</p>
+</section>
+
+<footer>
+    <p>© 2026 Sulakshna Home Products</p>
+</footer>
+
+</body>
+</html>
